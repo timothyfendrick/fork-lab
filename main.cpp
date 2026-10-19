@@ -5,15 +5,11 @@
 
 using namespace std;
 
-
-
 void print1to10();
 void print11to20();
 
 int main(int argc, char* argv[]) 
 {    
-    cout << "Hello World!!!" << endl;
-    
     if(fork() == 0){
         print1to10();
     }else{
